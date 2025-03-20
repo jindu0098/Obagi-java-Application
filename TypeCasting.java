@@ -10,7 +10,12 @@ public class TypeCasting{
 		 int asciiCode = (char)alpha;
 		 System.out.printf("The ASCII code for ? is &d%n",asciiCode);
 		 
-		 
+		 double height = 5.8;
+	  
+	  int myHeight =(int) height;
+	  System.out.printf("My faculty height is %d",myHeight);
+	  
+	  
 	 
 	 }
 }	 
